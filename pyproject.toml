@@ -1,9 +1,16 @@
 [project]
-name = "a2a"
+name = "agentic-ai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "google-adk>=1.28.1",
+    "litellm>=1.83.4",
+    "pandas>=3.0.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "protocols/a2a",
 ]
