@@ -13,4 +13,5 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "protocols/a2a",
+    "invoice-processing",
 ]

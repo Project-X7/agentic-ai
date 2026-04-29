@@ -336,7 +336,7 @@ def refine_sql(question: str, schema: str, sql: str, critique: str) -> str:
     return llm(SYSTEM_REFINE, prompt)
 
 
-## ORCHESTRATOR
+## Orchestrating fucntion that runs refelctio loop.
 
 def ask(
     question: str,
